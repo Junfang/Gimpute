@@ -97,14 +97,14 @@ shapeit = paste0(GimputeDIR,"tools/shapeit")
 impute2 = paste0(GimputeDIR,"tools/impute2")
 gtool = paste0(GimputeDIR,"tools/gtool")
 
-librariy(Gimpute)  
+library(Gimpute)  
 library(doParallel) ## parallel computing
 library(lattice)    ## PCA plot
 
 ## required perl scripts which are provided in the Github 
-perl4snpsWithSamePos = paste0(GimputeDIR,"src//snpsWithSamePos.pl")
-alignScript4compareName = paste0(GimputeDIR,"src/dataSetImpRefCompareName.pl ")
-alignScript = paste0(GimputeDIR,"src/dataSetImpRefComparePos.pl ")
+perl4snpsWithSamePos = paste0(GimputeDIR,"extdata/inst/snpsWithSamePos.pl")
+alignScript4compareName = paste0(GimputeDIR,"extdata/inst/dataSetImpRefCompareName.pl ")
+alignScript = paste0(GimputeDIR,"extdata/inst/dataSetImpRefComparePos.pl ")
 ```
 
 ### Configuration files
