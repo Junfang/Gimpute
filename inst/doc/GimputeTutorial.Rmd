@@ -80,8 +80,10 @@ system('mkdir 5-reductAndExpand')
 system('mkdir 6-finalResults')
 
 ## go to ./0-rawData
+setwd('0-rawData')
 system('mkdir plinkFiles') ## Original plink files 
 system('mkdir sampleInfo') ## Meta data information
+## Here you want to put the necessary PLINK files and meta data in the above two folders.
 setwd('..')
 ```
 
