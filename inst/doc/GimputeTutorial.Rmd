@@ -532,6 +532,9 @@ removedMonoSnp(plink, inputPrefix4aligned2impRef, outputPrefix, outputMonoSNPfil
 2. Use the imputation reference files to generate pre-phase haplotypes by SHAPEIT and then do the imputation by using IMPUTE2.
 + Output files: 4_2_imputedDataset.#
 
+The following R functions are required to complete the pre-phasing and imputation processes.
+
+
 ```{r eval=FALSE} 
 prefix4imputedPlink = "gwasImputed"
 ## output file name change to: 
@@ -658,7 +661,19 @@ Processing steps:
 ```  
 
 # Extending pipelines
-Ongoing embeded tools
+
+## Integrate with xx
+### Installation
+ 
+### Additional configuration files 
+* The imputation refernce files 
+
+* The human reference files: For the initial strand check.
+
+
+
 
 # Trouble-shooting 
+If you have any trouble or comment ->
 Contact: junfang.chen3@gmail.com
+
