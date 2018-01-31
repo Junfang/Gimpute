@@ -1,4 +1,4 @@
 # Gimpute
 An efficient R based genetic data processing and imputation pipeline
 
-Updating..
+Go to [transbioZI](https://github.com/transbioZI/Gimpute)
